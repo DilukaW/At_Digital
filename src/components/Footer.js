@@ -5,7 +5,7 @@ const Footer = () => {
             <footer class="row row-cols-1 row-cols-md-5 py-5 my-2 ">
                 <div class="col-md-6 mb-3">
                     <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
-                        <img src={logo} style={{ height: 25 }}></img>
+                        <img src={logo} style={{ height: 25 }} alt=""></img>
                     </a>
                     <p class="">Your goal is our target. Not anything in between. We use online marketing platforms and tools to achieve single objective - your business results.</p>
                 </div>

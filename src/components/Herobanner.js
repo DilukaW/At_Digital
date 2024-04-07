@@ -4,7 +4,7 @@ import '../style/Hero.css';
 const Hero = () => {
     return (
         <div className="hero-banner position-relative">
-            <img src={banner} className="img-fluid" alt="Hero Image" />
+            <img src={banner} className="img-fluid" alt="" />
             <div className="sub-hero d-block d-md-none w-100">
                 <div className="container text-white">
                     <div className="container text-white px-5 py-3">

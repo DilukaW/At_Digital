@@ -1,13 +1,13 @@
-import React, { useState } from 'react';
+
 
 const Accordin = () => {
-    const [accordions, setAccordions] = useState([
+    const accordions = [
         { heading: "Lorem ipsum dolor sit amet consectetur. Leo at sit eu libero?", body: "Lorem ipsum dolor sit amet consectetur. Faucibus commodo suscipit id ipsum. Elementum ultrices nulla faucibus odio est sed aliquam. Sapien massa morbi risus sagittis tortor integer." },
         { heading: "Lorem ipsum dolor sit amet consectetur. Tortor scelerisque integer?", body: "This is the second item's accordion body." },
         { heading: "Lorem ipsum dolor sit amet consectetur. Tortor scelerisque integer?", body: "This is the second item's accordion body." },
-        ,
 
-    ]);
+
+    ];
 
     return (
         <div className="accordion mb-5" id="accordionPanelsStayOpenExample">
